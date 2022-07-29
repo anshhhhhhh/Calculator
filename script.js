@@ -101,6 +101,13 @@ opes.forEach(op=>{
         if(op.id=='equ'){
             a=operate(oper, a, b)
             dis.textContent=a;
+            counter= 0;
+ input='';
+ a=0;
+ b;
+ oper;
+ operc=0;
+ k=0;
         }
         if(op.id=="cle"){
              counter= 0;
