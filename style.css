@@ -1,0 +1,57 @@
+.title{
+    height: 100px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+}
+
+body{
+background-color: black;
+font-size: 30px;
+color: #D6DBDF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+flex-shrink: 1;
+}
+
+.display{
+    
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+    flex-shrink: 1;
+    height: 100px;
+    width: 395px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #D6DBDF;
+    margin:-4px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 5;
+}
+.ope{
+    background-color:#A2D9CE ;
+}
+
+#equ{
+    background-color: #117864  ;
+}
+
+#cle{
+    background-color: #117864  ;
+}
